@@ -1,5 +1,27 @@
-canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
+body {
+  font-family: "Inconsolata", monospace;
+  background-color: hsl(0, 0%, 10%);
+  color: hsl(47, 41%, 93%);
+}
+
+header {
+  color: hsl(0, 0%, 10%);
+  background-color: hsl(10, 61%, 49%);
+  padding: 2rem 6rem;
+  font-size: 2rem;
+}
+
+main {
+  padding: 2rem 6rem;
+}
+
+.typed {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: hsl(10, 61%, 49%);
+}
+a:hover {
+  color: hsl(10, 80%, 70%);
 }

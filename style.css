@@ -25,3 +25,19 @@ a {
 a:hover {
   color: hsl(10, 80%, 70%);
 }
+
+.skip {
+  color: hsl(111, 100%, 54%);
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+  }
+
+  main {
+    padding: 1rem 2rem;
+    font-size: small;
+  }
+}
